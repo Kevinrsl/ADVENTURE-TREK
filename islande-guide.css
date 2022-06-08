@@ -17,7 +17,7 @@ body {
 header {
     width: 100%;
     height: 70vh;
-    background: url(../assets/trek1.jpg) no-repeat 50% 50%;
+    background: url(assets/trek1.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
