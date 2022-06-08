@@ -174,19 +174,19 @@ nav .buttons .register:hover {
 }
 
 .trek1 {
-  background-image: url(../assets/trek1.jpg) ;
+  background-image: url(assets/trek1.jpg) ;
 }
 
 .trek2 {
-  background-image: url(../assets/trek2.jpg) ;
+  background-image: url(assets/trek2.jpg) ;
 }
 
 .trek3 {
-  background-image: url(../assets/trek3.jpg) ;
+  background-image: url(assets/trek3.jpg) ;
 }
 
 .trek4 {
-  background-image: url(../assets/trek4.jpg) ;
+  background-image: url(assets/trek4.jpg) ;
 }
 
 .trek-details {
@@ -238,36 +238,36 @@ nav .buttons2 .voir-plus {
 }
 
 .trek-grid1 {
-  background-image: url(../assets/trekgrid1.jpg);
+  background-image: url(assets/trekgrid1.jpg);
   grid-column: 1/3;
 }
 
 .trek-grid2 {
-  background-image: url(../assets/trekgrid2.jpg);
+  background-image: url(assets/trekgrid2.jpg);
   grid-column: 3/5;
   height: 250px;
 }
 
 .trek-grid3 {
-  background-image: url(../assets/trekgrid3.jpg);
+  background-image: url(assets/trekgrid3.jpg);
   grid-column: 3/5;
   height: 250px;
 }
 
 .trek-grid4 {
-  background-image: url(../assets/trekgrid4.jpg);
+  background-image: url(assets/trekgrid4.jpg);
   grid-column: 1;
   grid-row: 3/5;
 }
 
 .trek-grid5 {
-  background-image: url(../assets/trekgrid5.jpg);
+  background-image: url(assets/trekgrid5.jpg);
   grid-column: 2/4;
   grid-row: 3/5;
 }
 
 .trek-grid6 {
-  background-image: url(../assets/trekgrid6.jpg);
+  background-image: url(assets/trekgrid6.jpg);
   grid-column: 4;
   grid-row: 3/5;
 }
@@ -310,7 +310,7 @@ footer .colonnes {
 
 
 .trekIslande {
-  background-image: url(../assets/trek1.jpg) ;
+  background-image: url(assets/trek1.jpg) ;
 }
 
 .list-name {
@@ -346,22 +346,22 @@ footer .colonnes {
 }
 
 .list-grid1 {
-  background-image: url(../assets/trek1.jpg);
+  background-image: url(assets/trek1.jpg);
   grid-column: 1/3;
 }
 
 .list-grid2 {
-  background-image: url(../assets/trek2.jpg);
+  background-image: url(assets/trek2.jpg);
   grid-column: 1/3;
 }
 
 .list-grid3 {
-  background-image: url(../assets/trek3.jpg);
+  background-image: url(assets/trek3.jpg);
   grid-column: 1/3;
 }
 
 .list-grid4 {
-  background-image: url(../assets/trek4.jpg);
+  background-image: url(assets/trek4.jpg);
   grid-column: 1/3;
 }
 
@@ -722,7 +722,7 @@ a{
   transform: translate(-50%,-50%);
   width: 300px;
   height:300px;
-  background : url(../assets/earth.jpg);
+  background : url(assets/earth.jpg);
   background-size: cover;
   background-repeat: repeat-x ;
   border-radius:50%;
