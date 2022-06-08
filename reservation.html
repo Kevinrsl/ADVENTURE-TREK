@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- barre de navigation -->
+    <section class="top-page">
+
+        <nav class="reservation_nav">
+            <h1>ADVENTURE TREK</h1>
+            <div class="onglets">
+                <a href="index.html">
+                    <p class="link">Accueil</p>
+                </a>
+                <a href="index.html#treks">
+                    <p class="link">Nos offres</p>
+                </a>
+                <a href="page1.html">
+                    <p class="link">Nos treks</p>
+                </a>
+            </div>
+        </nav>
+        <div class="landing-page">
+            <h1 class="big-title test">DEMANDE DE DEVIS</h1>
+        </div>
+    </section>
+
+    <!-- fin de la barre de navigation -->
+    <form method="post">
+
+        <div class="form-group">
+
+            <label for="destinations">Destination souhaitée : </label>
+            <input type="text" name="destinations" id="destinations" placeholder="Irland, Tanzanie, ...">
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="voyageurs">Nombre de voyageurs * : </label>
+            <input type="text" name="adultes" id="voyageurs" placeholder="2">
+            <label for="adultes">Adultes </label>
+            <input type="text" name="enfants" id="adultes" placeholder="2">
+            <label for="enfants">Enfants </label>
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="départ">Date de départ : </label>
+            <input type="date" name="départ" id="départ" placeholder="13/08/2022">
+
+            <label for="retour">Dates de retour : </label>
+            <input type="date" name="retour" id="retour" placeholder="21/08/2022">
+
+        </div>
+
+        <div class="form-group">
+            <label for="formule">Formule</label>
+            <select name="formule" id="formule">
+                <option selected="selected">Avec guide</option>
+                <option >Sans guide</option>
+            </select>
+        </div>
+
+        <div class="form-button">
+            <input type="submit" value="Passer à l'étape suivante" name="valider" id="valider">
+        </div>
+
+    </form>
+
+
+<!-- 
+    <div class="votre-projet">
+        <p>Destination souhaitée : </p><input type="text" name="">
+        
+        <p>Nombre de voyageurs * : </p><input type="text" name=""><p>Adultes</p><input type="text" name=""><p>enfants</p>
+        
+        <p>Date de départ * : </p><input type="date" name=""><p> Durée : </p><input type="int" name="">
+        
+        <p>Ville de départ souhaitée : </p><input type="text" name="">
+        
+        <p>Formule : </p><li><a>avec guide</a></li> <li><a>sans guide</a></li>
+        
+        <p>Décrivez-nous votre projet de voyage (envies, itinéraire...)*: : </p><input type="text" name="">
+        
+        <br><a href="index.html">
+                <button type="button" >
+                Passer à l'étape suivante</button><br><br><p></p>
+            </a>
+    </div> -->
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "..\\..\\WEB NFA085\\CVV"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "SITE"
+  }
+}

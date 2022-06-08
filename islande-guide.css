@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+
+@font-face {
+  font-family: "font-1";
+  src: url(./assets/FjallaOne-Regular.ttf);
+}
+*{
+  font-family: 'font-1';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 70vh;
+    background: url(../assets/trek1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.symbole {
+    position: fixed;
+    float : left;
+    margin: 16px 36px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    left: 1200px;
+}
+
+header .symbole img {
+    width:100px;
+}
+
+nav.scroll ul {
+    background: rgba(0,0,0,0.50);
+}
+
+/* FIN DU HEADER  */
+
+.sous-menu {
+    width: 100%;
+    background-color: #add981;
+}
+
+.sous-menu ul {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+}
+
+.sous-menu ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.sous-menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.sous-menu .spoiler button {
+    position: relative;
+}
+/* FIN SOUS MENU */
+
+.guide h2 {
+    font-size: 50px;
+    margin: 50px;
+    color:rgb(122, 89, 46);
+}
+
+.guide h3 {
+    text-align: center;
+    font-size: 32px;
+    color:#4c6d2b;
+}
+
+.guide img {
+    display: block;
+    margin: auto;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.guide h5 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.guide h4 {
+    margin: 20px;
+    font-size: 24px;
+    color:rgb(122, 89, 46);
+}
+
+.guide p {
+    margin: 20px;
+    margin-right: 300px;
+}
+
+.guide .grand {
+    color:rgb(122, 89, 46);
+}
+
+/* pied de page */
+
+footer{
+    background-color: #1a1a1a;
+    padding: 25px 100px;
+    color: #828282;
+  }
+  
+  footer .colonnes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  a{
+    text-decoration:none;
+    color : #7f7e7e;
+  }
+
+  .ou {
+    color: #fff;
+  }
+  
+  /* fin du pied de page */

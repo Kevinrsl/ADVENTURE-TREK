@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islande</title>
+    <link rel="stylesheet" href="islande-itineraire.css">
+    <script src="islande.js" defer="defer"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"> </script>
+</head>
+<body>
+    <header id="top">
+        <nav>
+            
+            <div class="symbole">
+                <img src="../assets/Fichier3-8.png" alt="logo">
+            </div>
+            <div class="menu">
+               <ul>
+                    <li>
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="page1.html">Nos treks</a>
+                    </li>
+                    <li>
+                        <a href="index.html#guides">Nos guides</a>
+                    </li>
+                    <li>
+                        <a href="#">Haut de page</a>
+                    </li>
+               </ul> 
+            </div>
+        </nav>
+        
+    </header>
+    <div class="sous-menu">
+        <ul>
+             <li>
+                <a href="islande.html">LE VOYAGE</a>
+
+             </li>
+             <li>
+                <a href="islande-itineraire.html">L'ITINÉRAIRE</a>
+
+             </li>
+             <li>
+                 <a href="islande-budget.html">LE BUDGET</a>
+             </li>
+             <li>
+                 <a href="islande-guide.html">L'ORGANISATION</a>
+             </li>
+        </ul> 
+     </div>
+     <div class="itineraire" id="ITINERAIRE">
+         <h2>L'ITINÉRAIRE</h2>
+         <div class="itinerairephoto">
+            <img src="../assets/islande-carte-trajet.jpg" alt="">
+        </div>
+        <h2>Les journées</h2>
+        <h3>JOUR 1</h3>
+        <h4>Reykjanesbær - Ólafsvellir</h4>
+        <p>Accueil à 14h00 à l'aéroport de Reykjanesbær. Vous devrez être en tenue de randonnée avec votre sac de la journée prêt.
+            Minibus jusqu'a Reykjavik, dépot des bagages dans le minibus puis marche jusqu'à Ólafsvellir afin de camper au Brautarholt Campsite pour des raisons écologiques.
+        </p>
+        <h3>JOUR 2</h3>
+        <h4>Ólafsvellir - Vík í Mýrdal</h4>
+        <p>Départ à 10 heures du camping pour se diriger à Mýrdal, petite localité ou nous découvrirons le Skaftfellingur Museum ainsi que le Icelandic Lava Show,
+            Nous coucherons chez l'habitant, petite journée afin de vous laissez profiter des habitants et découvrir leur culture.
+        </p>
+        <h3>JOUR 3</h3>
+        <h4>Vík í Mýrdal - Skaftafell</h4>
+        <p>Aujourdh'ui direction Skaftafell où nous y découvrirons le parc national de Skaftafell, admirer de magnifiques paysages à couper le souffle,
+            nuit à l'hôtel.
+        </p>
+        <h3>JOUR 4</h3>
+        <h4>Skaftafell - Höfn</h4>
+        <p>Nous nous dirigeons sur une presqu'île dans un lagon sur le côte sud-est de l'île, comptant pas plus de 3000 habitants, nous dormirons dans 
+            de petites Guesthouses écologiques.
+        </p>
+        <h3>JOUR 5</h3>
+        <h4>Höfn - Djúpivogur</h4>
+        <p>Petit trajet donc pas mal de marche à pied aujourd'hui, essayez de bien vous reposez la veille.
+        </p>
+        <h3>JOUR 6</h3>
+        <h4>Djúpivogur - Egilsstaðir</h4>
+        <p>Direction Egilsstaðir se situant sur les rives du Lögurinn dans l'Est de l'île, dans la région de l'Austurland. pour la moitié du voyage, une bonne journée de repos 
+            à l'hôtel.
+        </p>
+        <h3>JOUR 7</h3>
+        <h4>Egilsstaðir - Húsavík</h4>
+        <p>Nous serons déposez plus loin par le minibus, puis marche à pied jusq'à Húsavík, nous nous installerons à un campement au bord de l'eau.
+        </p>
+        <h3>JOUR 8</h3>
+        <h4>Húsavík - Dalvíkurbyggð</h4>
+        <p>Nous nous rendons à Dalvíkurbyggð, où nous camperons puis testerons la pêche locale avec les habitants de la ville.
+        </p>
+        <h3>JOUR 9</h3>
+        <h4>Dalvíkurbyggð - Víðidalstunga</h4>
+        <p>Direction Víðidalstunga où nous pourrons observer de magnifiques aurores boréales si nous sommes chanceux, évidemment campement à la belle étoile.
+        </p>
+        <h3>JOUR 10</h3>
+        <h4>Víðidalstunga - Ólafsvík</h4>
+        <p>Avant dernière journée ! Nous y sommes presque, un magnifique paysage au bord de l'eau avec de petites montagnes, coin parfait pour randonner.
+        </p>
+        <h3>JOUR 11</h3>
+        <h4>Ólafsvík - Reykjavik</h4>
+        <p>Retour à Reykjavik, la capitale de l'Islande ! Visite de la ville et activités tel que le marché, visite de musée, etc... en fonction du temps d'arrivé.
+        </p>
+        <h3>JOUR 12</h3>
+        <h4>Reykjavik - Reykjanesbær</h4>
+        <p>Dernier jour, matinée libre, mais rendez-vous à 14h00 devant l'hôtel afin de prendre le minibus nous ramenant à l'aéroport.
+        </p>
+     </div>
+    <script>
+        $(window).on("scroll", function(){
+            if($(window).scrollTop()){
+                $('nav').addClass('scroll');
+        }       
+                    else {
+                        $('nav').removeClass('scroll');
+                    }
+        })
+    </script>
+            <!-- pied de page -->
+            <footer>
+                <h5>Des questions ? Appelez le 08 XX XX XX XX</h5>
+                <div class="colonnes">
+                    <div class="colonne">
+                        <div class="ou"><p>où aller</p>
+                            <a href="plage.html">
+                                <span>Bord de mer</span>
+                            </a><br><br>
+                            <a href="safari.html">
+                                <span>Safari</span>
+                            </a><br><br>
+                            <a href="monument.html">
+                                <span>Monuments</span>
+                            </a><br><br>
+                            <a href="montagne.html">
+                                <span>Montagne</span>
+                            </a><br><br>
+                            <a href="désert.html">
+                                <span>Désert</span>
+                            </a><br><br>
+                            <a href="neige.html">
+                                <span>Neige</span>
+                            </a><br><br>
+                        </div>
+                    </div>
+                    <div class="colonne">
+                        <p>Centre d'aide</p>
+                        <a href="#treks">
+                            <span>Nos promos</span>
+                        </a>
+                        <p>Mentions légales</p>
+                        <a href="#guides">
+                            <span>Nos guides</span>
+                        </a>
+                    </div>
+                    <div class="colonne">
+                        <p>FAQ</p>
+                        <p>Recrutement</p>
+                        <p>Conditions d'utilisation</p>
+                        <a href="contactez-nous-copy.html">
+                            <span>Contactez nous</span>
+                        </a>
+                    </div>
+                    <div class="colonne">
+                        <div class="ou"><p>Contact</p>
+                            <a href="#">
+                                <span>Mon compte</span>
+                            </a><br><br>
+                            <a href="mail2.html">
+                                <span>S'enregistrer</span>
+                            </a><br><br>
+                            <a href="#">
+                                <span>Se connecter</span>
+                            </a><br><br>
+                            <a href="contactez-nous-copy.html">
+                                <span>Contactez nous</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p>Roussel Kevin, France</p>
+            </footer>
+        
+        
+            <!-- fin du pied de page -->
+</body>
+</html>

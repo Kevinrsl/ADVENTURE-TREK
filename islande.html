@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islande</title>
+    <link rel="stylesheet" href="islande.css">
+    <script src="islande.js" defer="defer"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"> </script>
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <div class="symbole">
+                <img src="../assets/Fichier3-8.png" alt="logo">
+            </div>
+            <div class="menu">
+               <ul>
+                    <li>
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="page1.html">Nos treks</a>
+                    </li>
+                    <li>
+                        <a href="index.html#guides">Nos guides</a>
+                    </li>
+                    <li>
+                        <a href="#">Haut de page</a>
+                    </li>
+               </ul> 
+            </div>
+        </nav>
+        
+    </header>
+    <div class="sous-menu">
+        <ul>
+             <li>
+                <a href="#VOYAGE">LE VOYAGE</a>
+             </li>
+             <li>
+                <a href="islande-itineraire.html">L'ITINÉRAIRE</a>
+             </li>
+             <li>
+                 <a href="islande-budget.html">LE BUDGET</a>
+             </li>
+             <li>
+                 <a href="islande-guide.html">L'ORGANISATION</a>
+             </li>
+        </ul> 
+     </div>
+     <div class="levoyage" id="VOYAGE">
+         <h2>LE VOYAGE</h2>
+         <div class="voyageliste">
+            <p>Les paysages de l'Islande.</p>
+            <p>La proximité de la mer.</p>
+            <p>Un groupe limité à 8 personnes ainsi qu'un minibus privatif.</p>
+            <p>Des hébergements chez l'habitant ou gite confortable avec espace détente.</p>
+            <p>Ce séjour est éco-responsable.</p>
+        </div>
+        <div class="voyagedef">
+            <p>L'Islande est un magnifique pays, venez découvrir sa culture au près des habitants prêts à vous héberger ! Découvrez les activités locales, les paysages à couper le 
+                souffle tout en partageant de bon moments avec le groupe.
+            </p>
+
+        </div>
+        <table class="voyagereservation">
+            <thead>
+                <tr>
+                    <th>Départ</th>
+                    <th>Retour</th>
+                    <th>Prix TTC</th>
+                    <th>Statue de départ</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>14/06/22</td>
+                    <td>26/06/22</td>
+                    <td>3555 €</td>
+                    <td>CONFIRMÉ</td>
+                    <td><a class="button" href="reservation.html">RÉRSERVER</a></td>
+                </tr>
+                <tr>
+                    <td>05/07/22</td>
+                    <td>17/07/22</td>
+                    <td>3555 €</td>
+                    <td>Demande de disponibilité</td>
+                    <td><a class="button" href="reservation.html">RÉRSERVER</a></td>
+                </tr>
+                <tr>
+                    <td>26/07/22</td>
+                    <td>07/08/22</td>
+                    <td>3555 €</td>
+                    <td>COMPLET</td>
+                    <td><a class="button" href="reservation.html">RÉRSERVER</a></td>
+                </tr>
+                <tr>
+                    <td>14/08/22</td>
+                    <td>26/08/22</td>
+                    <td>3555 €</td>
+                    <td>Demande de disponibilité</td>
+                    <td><a class="button" href="reservation.html">RÉRSERVER</a></td>
+                </tr>
+                <tr>
+                    <td>02/09/22</td>
+                    <td>14/09/22</td>
+                    <td>3555 €</td>
+                    <td>Demande de disponibilité</td>
+                    <td><a class="button" href="reservation.html">RÉRSERVER</a></td>
+                </tr>
+            </tbody>
+        </table>
+     </div>
+    <script>
+        $(window).on("scroll", function(){
+            if($(window).scrollTop()){
+                $('nav').addClass('scroll');
+        }       
+                    else {
+                        $('nav').removeClass('scroll');
+                    }
+        })
+    </script>
+            <!-- pied de page -->
+            <footer>
+                <h5>Des questions ? Appelez le 08 XX XX XX XX</h5>
+                <div class="colonnes">
+                    <div class="colonne">
+                        <div class="ou"><p>où aller</p>
+                            <a href="plage.html">
+                                <span>Bord de mer</span>
+                            </a><br><br>
+                            <a href="safari.html">
+                                <span>Safari</span>
+                            </a><br><br>
+                            <a href="monument.html">
+                                <span>Monuments</span>
+                            </a><br><br>
+                            <a href="montagne.html">
+                                <span>Montagne</span>
+                            </a><br><br>
+                            <a href="désert.html">
+                                <span>Désert</span>
+                            </a><br><br>
+                            <a href="neige.html">
+                                <span>Neige</span>
+                            </a><br><br>
+                        </div>
+                    </div>
+                    <div class="colonne">
+                        <p>Centre d'aide</p>
+                        <a href="#treks">
+                            <span>Nos promos</span>
+                        </a>
+                        <p>Mentions légales</p>
+                        <a href="#guides">
+                            <span>Nos guides</span>
+                        </a>
+                    </div>
+                    <div class="colonne">
+                        <p>FAQ</p>
+                        <p>Recrutement</p>
+                        <p>Conditions d'utilisation</p>
+                        <a href="contactez-nous-copy.html">
+                            <span>Contactez nous</span>
+                        </a>
+                    </div>
+                    <div class="colonne">
+                        <div class="ou"><p>Contact</p>
+                            <a href="#">
+                                <span>Mon compte</span>
+                            </a><br><br>
+                            <a href="mail2.html">
+                                <span>S'enregistrer</span>
+                            </a><br><br>
+                            <a href="#">
+                                <span>Se connecter</span>
+                            </a><br><br>
+                            <a href="contactez-nous-copy.html">
+                                <span>Contactez nous</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p>Roussel Kevin, France</p>
+            </footer>
+        
+        
+            <!-- fin du pied de page -->
+</body>
+</html>

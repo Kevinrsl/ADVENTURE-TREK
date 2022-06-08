@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+
+@font-face {
+  font-family: "font-1";
+  src: url(./assets/FjallaOne-Regular.ttf);
+}
+*{
+  font-family: 'font-1';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 70vh;
+    background: url(../assets/trek1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.symbole {
+    position: fixed;
+    float : left;
+    margin: 16px 36px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    left: 1200px;
+}
+
+header .symbole img {
+    width:100px;
+}
+
+nav.scroll ul {
+    background: rgba(0,0,0,0.50);
+}
+
+/* FIN DU HEADER  */
+
+.sous-menu {
+    width: 100%;
+    background-color: #add981;
+}
+
+.sous-menu ul {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+}
+
+.sous-menu ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.sous-menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.sous-menu .spoiler button {
+    position: relative;
+}
+/* FIN SOUS MENU */
+
+/* div.spoiler {
+    padding: 20px 10px 10px 10px;
+    width: 100%;
+    position: relative;
+}
+ 
+div.spoiler input.boutonSpoiler {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+ 
+div.spoiler div.contenuSpoiler {
+    display: none;
+} */
+
+/* LE VOYAGE */
+
+.levoyage h2 {
+    font-size: 50px;
+    margin: 50px;
+    color:rgb(122, 89, 46);
+}
+
+.levoyage .voyageliste {
+    padding-left: 50px;
+    color:rgb(158, 119, 67);
+    font-size: 20px;
+}
+
+.levoyage .voyagedef {
+    padding-top: 5px;
+    padding-left: 800px;
+    font-size: 20px;
+    color: #4c6d2b;
+}
+
+.voyagereservation {
+    border-collapse: collapse ;
+    min-width: 1300px;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    cursor: pointer;
+    margin: 100px auto;
+}
+
+thead tr {
+    background-color: #4c6d2b;
+    color: #fff;
+    text-align: left;
+}
+
+th,td {
+    padding: 15px 20px;
+}
+
+tbody tr:nth-child(even){
+    background-color: #f3f3f3;
+}
+
+/* pied de page */
+
+footer{
+    background-color: #1a1a1a;
+    padding: 25px 100px;
+    color: #828282;
+  }
+  
+  footer .colonnes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  a{
+    text-decoration:none;
+    color : #7f7e7e;
+  }
+
+  .ou {
+    color: #fff;
+  }
+  
+  /* fin du pied de page */
+
+  .button {
+      background-color: #4c6d2b;
+      color:#fff ;
+      padding: 6px;
+      border-radius: 15%;
+  }

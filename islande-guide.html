@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islande</title>
+    <link rel="stylesheet" href="islande-guide.css">
+    <script src="islande.js" defer="defer"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"> </script>
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <div class="symbole">
+                <img src="../assets/Fichier3-8.png" alt="logo">
+            </div>
+            <div class="menu">
+               <ul>
+                    <li>
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="page1.html">Nos treks</a>
+                    </li>
+                    <li>
+                        <a href="index.html#guides">Nos guides</a>
+                    </li>
+                    <li>
+                        <a href="#">Haut de page</a>
+                    </li>
+               </ul> 
+            </div>
+        </nav>
+        
+    </header>
+    <div class="sous-menu">
+        <ul>
+             <li>
+                <a href="islande.html">LE VOYAGE</a>
+
+             </li>
+             <li>
+                <a href="islande-itineraire.html">L'ITINÉRAIRE</a>
+
+             </li>
+             <li>
+                 <a href="islande-budget.html">LE BUDGET</a>
+             </li>
+             <li>
+                 <a href="islande-guide.html">L'ORGANISATION</a>
+             </li>
+        </ul> 
+     </div>
+
+
+     <div class="guide" id="ITINERAIRE">
+         <h2>SUR LE TERRAIN</h2>
+        <h3>NOS GUIDES</h3>
+        <div class="guidephoto">
+            <img src="../assets/guide2.jpg" alt="">
+        </div>
+        <h5>Sophie Bitzini</h5>
+        <p>Les guides présentés ici font partie de l'équipe qui encadre régulièrement nos circuits. D'autres pourront bien sûr vous accompagner lors de votre voyage.</p><br>
+
+        <h3>L'ÉQUIPE</h3>
+        <p>Vous serez encadrés par un accompagnateur en montagne diplômé d’Etat.</p><br>
+
+        <h3>LES DÉPLACEMENTS</h3>
+        <p>Les transferts seront effectués en minibus conduit par le guide.</p><br>
+        <p>Nous attirons votre attention sur le fait que le port de la ceinture de sécurité est obligatoire à l'avant comme à l'arrière dans tous les véhicules
+            que vous emprunterez au cours du voyage, lorsqu'ils en sont équipés, et ce quelle que soit la réglementation en vigueur dans le pays visité. 
+            En vous inscrivant sur un voyage Trek adventure, vous vous engagez à respecter cette obligation. La responsabilité de Trek Adventure
+            ne saurait être retenue en cas de dommage(s) corporel(s) et/ou matériel(s) s'il s’avérait que cette disposition n'était pas respectée de votre fait.</p><br>
+
+        <h3>L'HÉBERGEMENT</h3>
+        <p>Vous êtes hébergés en chambre d'hôtel/camping/tente Accès gratuit à l'espace bien-être d'une heure dans les hôtels.</p><br>
+        
+        <h3>LES REPAS</h3>
+        <p>Les pique-niques de midi sont préparés par votre accompagnateur.</p>
+        <p>Un sachet de vivres de course en coton bio est remis à chaque participant au début du séjour, il contient des fruits secs bio (raisins, figues).</p><br>
+
+        <h3>LE TRANSPORT DES BAGAGES</h3>
+        <p>Vous portez uniquement vos affaires de la journée ainsi que le pique-nique. Le reste de vos affaires restent à l'hébergement ou dans le minibus.</p><br>
+
+     </div>
+    <script>
+        $(window).on("scroll", function(){
+            if($(window).scrollTop()){
+                $('nav').addClass('scroll');
+        }       
+                    else {
+                        $('nav').removeClass('scroll');
+                    }
+        })
+    </script>
+
+            <!-- pied de page -->
+            <footer>
+                <h5>Des questions ? Appelez le 08 XX XX XX XX</h5>
+                <div class="colonnes">
+                    <div class="colonne">
+                        <div class="ou"><p>où aller</p>
+                            <a href="plage.html">
+                                <span>Bord de mer</span>
+                            </a><br><br>
+                            <a href="safari.html">
+                                <span>Safari</span>
+                            </a><br><br>
+                            <a href="monument.html">
+                                <span>Monuments</span>
+                            </a><br><br>
+                            <a href="montagne.html">
+                                <span>Montagne</span>
+                            </a><br><br>
+                            <a href="désert.html">
+                                <span>Désert</span>
+                            </a><br><br>
+                            <a href="neige.html">
+                                <span>Neige</span>
+                            </a><br><br>
+                        </div>
+                    </div>
+                    <div class="colonne">
+                        <p>Centre d'aide</p>
+                        <a href="#treks">
+                            <span>Nos promos</span>
+                        </a>
+                        <p>Mentions légales</p>
+                        <a href="#guides">
+                            <span>Nos guides</span>
+                        </a>
+                    </div>
+                    <div class="colonne">
+                        <p>FAQ</p>
+                        <p>Recrutement</p>
+                        <p>Conditions d'utilisation</p>
+                        <a href="contactez-nous-copy.html">
+                            <span>Contactez nous</span>
+                        </a>
+                    </div>
+                    <div class="colonne">
+                        <div class="ou"><p>Contact</p>
+                            <a href="#">
+                                <span>Mon compte</span>
+                            </a><br><br>
+                            <a href="mail2.html">
+                                <span>S'enregistrer</span>
+                            </a><br><br>
+                            <a href="#">
+                                <span>Se connecter</span>
+                            </a><br><br>
+                            <a href="contactez-nous-copy.html">
+                                <span>Contactez nous</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p>Roussel Kevin, France</p>
+            </footer>
+        
+        
+            <!-- fin du pied de page -->
+</body>
+</html>
